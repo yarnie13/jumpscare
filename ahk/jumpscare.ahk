@@ -28,7 +28,7 @@ Gui, Show, hide w%width% h%height%
 return
 ; Hotkey labels
 transToggle:
-	WinSet, Transparent, % trans:= trans=255 ? transLevel:255 , ahk_id %guiID%		
+	WinSet, Transparent, % trans:= trans=255 ? transLevel:255 , ahk_id %guiID%
 return
 
 moveOverlay:
